@@ -569,7 +569,6 @@ void processNormalKeys(unsigned char key, int xx, int yy) {
 				x += round(lx) ;
 				z += round(lz) ;
 				while(ARRAY[nextX][nextY-1][nextZ].getActive()==0){
-					printf("x=%f y=%f z=%f\n",x,y,z);
 					if(y-1 <=0){
 						subtractLife();
 						break;
@@ -783,10 +782,10 @@ int main (int argc, char **argv) {
 
 	cout << "Welcome to Cube-Mania.A place where you can cube everything!" << endl;
 	cout << "Happy Cubing!" << endl;
-	cout << "Enter dimensions in range of 10 to 20" << endl;
+
 	do{
+	cout << "Enter dimensions in range of 10 to 20" << endl;	
 	cin	 >> N;
-	cout << "Please enter the right dimensions" << endl;
 	}while(N<10 || N>20);
 	//responsible for allocating N	
 	init();
