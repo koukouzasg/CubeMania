@@ -1,2 +1,2 @@
-# CubeMania
-3D game using opengl and glut.
+# CubeMania 3D OpenGL Game
+A 3D minecraft-like game in C++,using openGL and glut library
