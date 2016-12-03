@@ -1,5 +1,7 @@
 # CubeMania 3D OpenGL Game
-A 3D minecraft-like game in C++,using openGL and glut library
+A 3D minecraft-like game in C++,using openGL and glut library.
+
+The game was developed by me and Ioannis Schoinochoritis,both undergraduate students at the computer science and engineering department of University of Ioannina.
 
 #Synopsis
 Goal of the game is to gather points and increase the score building,destroying,climbing,collapsing and kicking cubes inside the grid.The player starts at the center of the grid whose size is defined by the player at the start of the game.The player starts with 3 HP and 50 score.The game supports first person and third person view.
@@ -30,3 +32,19 @@ Now you should be able to play the game! Happy cubing people!Take care of cubeBO
 ![Alt text](https://github.com/koukouzasg/CubeMania/blob/master/thirdPersonView.png "ThirdPerson Preview")
 
 #How to Play
+-   W,w : Move forward and climb cubes
+-   D,d : Turn Right.
+-   A,a : Turn left.
+-   S,s : Turn 180 degrees.
+-   Q,q : Destroy cube.
+-   Spacebar : Increase playerStock,lose 5 points,change color.If color is blue you cant draw  any more.
+-   E,e : Delete the column in front of you,including the ground cube creating a hole in the grid.Lose 20 points
+-   R,r : Collapse all the cubes that float in the air.While the cubes are falling cubeBOT cant move.Gain 10 points.
+-   Left-click : Build a cube.Gain 5 points lose one stock.
+-   Right-click : Kick a cube and all the other cubes in the same line until they reach the edge of the grid.
+-   V,v : Switch to thirdPerson view.
+-   C,c : Switch to firstPerson view.
+-   Escape : Exit the game.
+
+# Contact
+Please feel free to contact me for any details-specifications you want in koukouzasg@hotmail.gr
