@@ -47,4 +47,4 @@ Now you should be able to play the game! Happy cubing people!Take care of cubeBO
 -   Escape : Exit the game.
 
 # Contact
-Please feel free to contact me for any details-specifications you want in koukouzasg@hotmail.gr
+Please feel free to contact me for any details-specifications you want in koukouzasg@hotmail.gr .
