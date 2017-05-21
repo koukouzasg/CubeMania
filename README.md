@@ -3,7 +3,7 @@ A 3D minecraft-like game in C++,using openGL and glut library.
 
 The game was developed by me and Ioannis Schoinochoritis,both undergraduate students at the computer science and engineering department of University of Ioannina.
 
-#Synopsis
+# Synopsis
 Goal of the game is to gather points and increase the score building,destroying,climbing,collapsing and kicking cubes inside the grid.The player starts at the center of the grid whose size is defined by the player at the start of the game.The player starts with 3 HP and 50 score.The game supports first person and third person view.
 
 ![Alt text](https://github.com/koukouzasg/CubeMania/blob/master/firstPersonView.png "FirstPerson Preview")
@@ -31,7 +31,7 @@ Now you should be able to play the game! Happy cubing people!Take care of cubeBO
 
 ![Alt text](https://github.com/koukouzasg/CubeMania/blob/master/thirdPersonView.png "ThirdPerson Preview")
 
-#How to Play
+# How to Play
 -   W,w : Move forward and climb cubes
 -   D,d : Turn Right.
 -   A,a : Turn left.
